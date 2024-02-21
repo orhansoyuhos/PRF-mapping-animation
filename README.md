@@ -1,3 +1,5 @@
+![alt text](prf_ani.gif)
+
 # Population Receptive Field (PRF) Mapping Simulation
 
 This repository contains MATLAB scripts for simulating neural activity in response to stimuli presented at specific locations on a grid and calculating the population receptive field (PRF) based on the simulated neural responses.
@@ -30,7 +32,7 @@ You can customize the experiment simulation by adjusting the parameters at the b
 ## Data Simulation and RF Mapping Calculation
 ### Neural Activity Simulation
 
-The simulation models neural responses to stimuli presented on a predefined grid, capturing the dynamics of experimental trials. Stimuli are shown at various locations with controlled timings for presentation, baseline, and inter-stimulus intervals. Neural responses are simulated based on a Gaussian response profile, reflecting how neurons react to stimuli relative to their peak sensitivity locations. This approach generates a dataset mimicking real neural activity patterns in response to spatially distributed stimuli.
+The simulation models neural responses to stimuli presented on a predefined grid. Stimuli are shown at various locations with controlled timings for presentation, baseline, and inter-stimulus intervals. Neural responses are simulated based on a Gaussian response profile, reflecting how neurons react to stimuli relative to their peak sensitivity locations. This approach generates a dataset mimicking real neural activity patterns in response to spatially distributed stimuli.
 
 ### PRF Mapping Calculation
 
