@@ -37,6 +37,8 @@ function trialActivity = simulate_neural_activity(currentLocations, numChannels,
 %     is expected to form a rectangular grid (e.g., 4x6 for `totalLocations` = 24).
 %
 % See also: rand, exp, sqrt, mod
+%
+% Author: Orhan Soyuhos, 2024
 
 
 % Parameters for the Gaussian response profile
@@ -106,5 +108,3 @@ for channelIdx = 1:numChannels
     trialActivity(channelIdx, :) = baseActivity;
 end
 end
-
-%% Orhan Soyuhos 2024

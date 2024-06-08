@@ -38,6 +38,8 @@ function calculate_population_receptive_field(neuralActivity, stimulusLocations,
 %     unique locations on the grid, with each row corresponding to a trial.
 %
 % See also: heatmap, imagesc
+%
+% Author: Orhan Soyuhos, 2024
 
 % Initialize variables
 numLocations = max(stimulusLocations(:));

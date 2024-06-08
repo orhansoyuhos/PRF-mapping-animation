@@ -36,6 +36,8 @@ function neuralActivity = animate_trials(stimulusLocations, numChannels, baseDur
 %     between 0 and 1 for consistency across different segments of the trial.
 %
 % See also: imagesc, colormap, caxis
+%
+% Author: Orhan Soyuhos, 2024
 
 
 % Setup for visualization
@@ -90,5 +92,3 @@ for trialIdx = 1:size(stimulusLocations, 1)
     end
 end
 end
-
-%% Orhan Soyuhos 2024

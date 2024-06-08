@@ -29,6 +29,8 @@ function plot_stimulus(gridRows, gridCols, currentStim)
 %     in a new figure window or the current figure window if one is already open.
 %
 % See also: ind2sub, plot, hold
+%
+% Author: Orhan Soyuhos, 2024
 
 [row, col] = ind2sub([gridRows, gridCols], currentStim);
 hold on;
@@ -44,5 +46,3 @@ axis square;
 axis off;
 hold off;
 end
-
-%% Orhan Soyuhos 2024
